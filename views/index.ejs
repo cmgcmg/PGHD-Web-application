@@ -1,0 +1,148 @@
+<style>
+.btn-info {
+  font-family: "맑은 고딕,Arial";
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  padding:10px 25px 10px 25px;
+}
+.btn {
+  font-family: "맑은 고딕,Arial";
+  display: inline-block;
+  padding:15px 25px;
+  margin-bottom: 0;
+  font-size: 150%;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+button, input, select, textarea {
+  font-family: "맑은 고딕,Arial";
+  font-size: 150%;
+  line-height: 100%;
+}
+
+
+</style>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>대사관리 앱</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="관리항모, 음식관리, 운동관리로 대사를 관리합니다." />
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----- webfonts ------>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<!----- webfonts ------>
+</head>
+
+<body background="../images/backbody.png">
+		 <!----start-header---->
+		  <div id="home" class="header">
+			     <div class="wrap">
+					<div class="top-header">
+						<div class="logo">
+							<div style="float:left;margin:0 20px 0 0 ;font-size:70%;"><a href="/"><img src="/images/icon_home2.png" style="height:35px;" ></a></div>						
+							<div style="clear:both;font-size:80%;"></div>
+					    	</div>
+					    	          <nav class="nav">
+                                <a href="#" id="w3-menu-trigger"> </a>
+					          <ul class="nav-list">
+							    <li class="nav-item"><a class="active" href="/">HOME</a></li>
+								<li class="nav-item"><a class="active" href="calendar.asp">대사캘린더</a></li>
+								<li class="nav-item"><a class="active" href="hcinfo.asp">대사 관리</a></li>
+								<li class="nav-item"><a class="active" href="hcfood.asp">식사 관리</a></li>
+								<li class="nav-item"><a class="active" href="hcexercise.asp">운동 관리</a></li>
+								<li class="nav-item"><a class="active" href="hcboard.asp">일별CHART</a></li>
+								<li class="nav-item"><a class="active" href="#">정보변경</a></li>
+                 
+								         </ul>
+							                 <script src="js/responsive.menu.js"></script>
+						         </nav>
+							 <div class="clear"> </div>
+					    </div>
+				  </div>
+	 	 </div>
+
+
+
+
+
+		<div id="about" class="features" style="padding:10px 0 5px 0;">
+			<div class="container">
+			    <div style="margin:5px;font-weight:bold;padding:5px;text-align:left;background:rgba(255,255,255,0.4);">
+
+
+
+    <form action="/loginCheck" id="formLogin" name="formLogin" method="get">	    
+    <div style="margin:5px;text-align:center;">
+    <input type="email" name="login_email" style="width:98%;height:1.5em;font-size:100%;" class="input" id="Text1" placeholder="이메일" required autofocus />
+    </div>
+    <div style="margin:5px;text-align:center;">
+    <input type="password" name="login_pwd" style="width:98%;height:1.5em;font-size:100%;" class="input" id="Password1" placeholder="비밀번호" required >
+    </div>
+
+
+
+
+
+
+
+
+
+    <div style="margin:5px 5% 5px 5%;text-align:center;font-size:80%;">
+    Remember me  <input type=checkbox name="remember_flag" value="1" checked /> 
+    <input type="submit" value="로그인" style="padding:3px 5px 3px 5px;background-color:#3388cc;border:solid 1px #ffffff;color:#ffffff;font-size:120%;" />&nbsp;&nbsp;
+    <a href="/sign_up"><span style="padding:3px 5px 3px 5px;background-color:#3388cc;border:solid 1px #ffffff;color:#ffffff;font-size:120%;" >회원가입</span></a>	  <br />     					 
+    </div>
+    </form>   
+    </div>
+
+
+
+
+
+
+
+       			<div class="row text-center">
+	       				<div class="col-md-4 about_grid" style="font-family:맑은 고딕,Arial;">
+	       					 <span style="font-family:맑은 고딕,Arial;font-size:100%;font-weight:bold;color:#ffff00;" />로그인하세요. (비회원은 회원가입)<span>
+	       				</div>
+               
+                        <div class="col-md-4 about_grid" style="padding:5px 0 0 0;font-family:맑은 고딕,Arial;font-size:120%;">
+	       			
+	       				<span style="font-family:맑은 고딕,Arial;font-size:100%;font-weight:bold;color:#ffff00;" />
+                        </div>
+	       				<div class="clearfix"> </div>
+       			</div>
+       			<div style="height:30px;"></div>
+				<div class="gallery-head text-center">
+				</div>
+       			
+				<div class="gallery-head text-center">
+				
+			</div>
+<div style="text-align:center;padding:20px 0 30px  0;">
+</div>
+
+		</div>

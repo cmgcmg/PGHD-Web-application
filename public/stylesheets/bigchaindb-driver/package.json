@@ -1,0 +1,205 @@
+{
+  "_args": [
+    [
+      "bigchaindb-driver",
+      "/home/db/web01"
+    ],
+    [
+      "bigchaindb-driver",
+      "/home/db/web01"
+    ],
+    [
+      "bigchaindb-driver",
+      "/home/db/web01"
+    ]
+  ],
+  "_from": "bigchaindb-driver@latest",
+  "_hasShrinkwrap": false,
+  "_id": "bigchaindb-driver@4.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bigchaindb-driver",
+  "_nodeVersion": "8.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bigchaindb-driver_4.1.1_1556611629360_0.2050558393439994"
+  },
+  "_npmUser": {
+    "email": "manolosingular@gmail.com",
+    "name": "manolodewiner"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": null,
+    "raw": "bigchaindb-driver",
+    "rawSpec": "bigchaindb-driver",
+    "scope": null,
+    "spec": "/home/db/web01/node_modules/bigchaindb-driver",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/bigchaindb-driver/-/bigchaindb-driver-4.1.1.tgz",
+  "_shasum": "3ee5ee4dc8ac65b32c00fc3fc9967b90e7a5b4de",
+  "_shrinkwrap": null,
+  "_spec": "bigchaindb-driver",
+  "_where": "/home/db/web01",
+  "author": {
+    "name": "BigchainDB"
+  },
+  "ava": {
+    "babel": "inherit",
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "files": [
+      "test/*.js"
+    ],
+    "powerAssert": false,
+    "require": [
+      "babel-register"
+    ],
+    "source": [
+      "!dist/**/*",
+      "!node_modules/**/*",
+      "**/*.{js,jsx}"
+    ],
+    "tap": true
+  },
+  "browser": "./dist/browser/bigchaindb-driver.cjs2.min.js",
+  "bugs": {
+    "url": "https://github.com/bigchaindb/js-bigchaindb-driver/issues"
+  },
+  "dependencies": {
+    "browser-resolve": "^1.11.3",
+    "bs58": "^4.0.1",
+    "buffer": "^5.1.0",
+    "clone": "^2.1.1",
+    "core-js": "^2.6.5",
+    "crypto-conditions": "^2.0.1",
+    "decamelize": "^3.2.0",
+    "es6-promise": "^4.2.4",
+    "fetch-ponyfill": "^6.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "js-sha3": "^0.8.0",
+    "js-utility-belt": "^1.5.0",
+    "json-stable-stringify": "^1.0.1",
+    "query-string": "^6.0.0",
+    "rewire": "^4.0.1",
+    "sprintf-js": "^1.1.1",
+    "tweetnacl": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack-merge": "^4.1.3",
+    "webpack-sources": "^1.1.0"
+  },
+  "description": "Node.js driver for BigchainDB",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^0.3.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-no-commonjs": "0.0.2",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "documentation": "^10.1.0",
+    "eslint": "^5.0.1",
+    "eslint-config-ascribe": "^3.0.5",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^2.1.0",
+    "lint-staged": "^8.0.0",
+    "nyc": "^14.0.0",
+    "release-it": "^10.4.4",
+    "rimraf": "^2.6.2",
+    "sinon": "^7.3.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.0.8",
+    "webpack-concat-plugin": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 68,
+    "integrity": "sha512-RfgMmltDBw2DsACopNU7n1JVlr5CXyC63AXEmiE6NNRsEvspa57PtvgIUnlGEE5Q49TdGMsGr1/SaYNfKJqoVA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcyAIuCRA9TVsSAnZWagAAHsUP/3Wf4jAlT6UZs9ZciwYp\nctrnqQx+E8sVFTiqWOX59PuNOEQchU8cHSmCmGh2vUjPJdfZUvE14JNVM/Kw\nXc8VQUc0TBiYeoUxXKOd5sWGiXiCMpJclEikIQ0bp9GAldFjUn9i4+fGTWGQ\nNct8K0dcFvjnfzjaIfPGgibjCc0OW8Eo96+gMBUcs5DPoMcDkkuJOkWdMyix\n6GbjH/wjbn/2KRd6ZsfKBjm0hZBy38bDo/wLNehDAdwV8JdnJD3+u4LRklW0\nrYFZrTlOAZXvogmUx1insM7JNSOj88U2X6XMa+XjNlWG9tmbd2tu9UhAEyFM\nSngtj++ouMgwsQlwBHVb13jXG5L7z4AtzyLuEhDfMoHWs04TV1KDa/O0PZGS\noTLNXRxhmAF7B54PYh1sj2VvuuNNF9ZNyC0E+24DrQA4nfN7Ige++DY5NTkj\nOj1PF0Q3wsw58fUhkkEJ0qnJ4tiI70Q5ox2HG/bM8xJsI9bc9loCIeEP/4XB\nJdxVNZwFHlDzj+S6QElLwbPdmZraP+anipGD/oDw523I3s62EY3ySmd5G1QT\nfNclAZLTC/8YyDfMZAnmJRGMp8DjqZovM2MoH2rQ4DixfzdnpjgNalMe3LTf\nHI9wdjt6zhnoqdpUYstJPj93sVWj2tC6Dto7Vfz8cf4pRdeJv3U+8DQo57FE\nPjZm\r\n=hYUq\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "3ee5ee4dc8ac65b32c00fc3fc9967b90e7a5b4de",
+    "tarball": "https://registry.npmjs.org/bigchaindb-driver/-/bigchaindb-driver-4.1.1.tgz",
+    "unpackedSize": 274809
+  },
+  "gitHead": "a3d1824a03ac40ddab1846ab4b6577a4198833f6",
+  "homepage": "https://www.bigchaindb.com/",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "bigchaindb",
+    "blockchain",
+    "dapp",
+    "decentralized",
+    "driver"
+  ],
+  "license": "Apache-2.0",
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
+  },
+  "main": "./dist/node/index.js",
+  "maintainers": [
+    {
+      "name": "bdbadmin",
+      "email": "webaccount@bigchaindb.com"
+    },
+    {
+      "name": "jernej.pregelj",
+      "email": "jernej.pregelj88@gmail.com"
+    },
+    {
+      "name": "kremalicious",
+      "email": "m@kretschmann.io"
+    },
+    {
+      "name": "manolodewiner",
+      "email": "manolosingular@gmail.com"
+    },
+    {
+      "name": "troymc",
+      "email": "troy@troymcconaghy.com"
+    }
+  ],
+  "name": "bigchaindb-driver",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigchaindb/js-bigchaindb-driver.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run build:cjs && npm run build:dist",
+    "build:bundle": "webpack",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel ./src -d dist/node",
+    "build:dist": "cross-env NODE_ENV=production webpack",
+    "clean": "rimraf dist/bundle dist/node",
+    "dev": "webpack -w",
+    "doc": "node ./node_modules/documentation/bin/documentation.js build src/index.js -f md -o API.md -g --markdown-toc",
+    "lint": "eslint ./{src,test,examples}/**/*.js",
+    "prepublishOnly": "npm run build",
+    "release": "./node_modules/release-it/bin/release-it.js --src.tagName='v%s' --github.release --npm.publish --non-interactive",
+    "release-major": "./node_modules/release-it/bin/release-it.js major --src.tagName='v%s' --github.release --npm.publish --non-interactive",
+    "release-minor": "./node_modules/release-it/bin/release-it.js minor --src.tagName='v%s' --github.release --npm.publish --non-interactive",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
+    "test": "npm run lint && nyc ava test/ && npm run thanks && npm run report-coverage",
+    "thanks": "cowsay Hi, thanks for your interest in BigchainDB. We appreciate your contribution!"
+  },
+  "sideEffects": false,
+  "version": "4.1.1"
+}
